@@ -1,0 +1,32 @@
+TYPESCRIPT:
+- Typescript is a programming language developed and maintained by maintained by Microsoft.
+- It is a strict syntactical superset of the JavaScript and adds optional static typing to the language.
+
+// HOW DOES TS CODE RUNS??
+- TYPESCRIPT code never runs in your browser as your browser only understands JavaScript.
+- JavaScript is a runtime language(the thing that actually runs in your browser / node.js runtime)
+- Typescript is something that compiler down to JavaScript.
+- When Typescript is transpiled down to JavaScript, you get type checking errors. If there is error converion to JS fails.
+
+
+//commands
+npm i -g typescript     //install ts globally
+npm init -y             //create package.json
+tsc --init              //ts.config is created
+tsc -b                  //to compile .ts to .js
+
+//Types in TS
+-  number
+- string
+- boolean 
+- null
+- undefined
+
+//tsconfig 
+- target : The target option in transfig.json specifies the ECMAScript target version to which TS compiler will compile the TS code.
+- rootDir : Where the compiler should look for the .ts files
+- outDir : Where the compiler should spit out the .js files
+- noImplicitType : You can set it to false to make it slightly less strict
+- removeComments: if true, comments of .ts files will be removed from .js files
+
+//INTERFACES
