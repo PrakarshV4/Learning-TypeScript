@@ -115,3 +115,22 @@ if you want to access arrays in typescript, its as simple as adding a [] annotat
         return maxi;
     }
 
+//Enums : Enums in typescript are a feature that allows you to define a set of named constants. The concept behind enumerations is to create a human readable way to represent a set of constant values which might otherwise be represented as a string or number.
+    example: Suppose you have to create a game where user has to press up , down, left, or right arrow keys. what should be their type? string or number? The best way to represent them is enum.
+
+    enum Direction{
+        Up,
+        Down,
+        Left,
+        Right
+    }
+    the final value stored in runtme is still 0,1,2,3.
+
+    to get up, down, left, right in runtime also we need to specify in all
+    enum Direction{
+        Up = "up",
+        Down = "down",
+        Left = "left",
+        Right = "right"
+    }
+- Enums does not exist in JavaScript it is virtual concept. 
