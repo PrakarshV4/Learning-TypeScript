@@ -69,15 +69,15 @@
 
 //Arrays in TS
 
-function maxValue(arr: number[]): number {
-    let maxi = 0;
-    for(let i=0; i<arr.length; i++){
-        if(arr[i]>maxi){
-            maxi = arr[i];
-        }
-    }
-    return maxi;
-}
+// function maxValue(arr: number[]): number {
+//     let maxi = 0;
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i]>maxi){
+//             maxi = arr[i];
+//         }
+//     }
+//     return maxi;
+// }
 
 //enum 
 
@@ -95,3 +95,6 @@ function maxValue(arr: number[]): number {
 //     }
 //     res.status(ResponseStatus.Success).json({});
 // })
+
+import a from "./Import_and_export_modules";
+console.log(a);

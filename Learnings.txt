@@ -156,3 +156,8 @@ if you want to access arrays in typescript, its as simple as adding a [] annotat
     Generics enable you to create components that work with any data type while still providing compile type error safety
 
 - During definition we dont know the type we are calling, it can be anything. But when we are calling that function we have to define what type is being called.
+
+// IMPORT and EXPORT modules
+npm i @types/express
+
+- typescript follows the ES6 module of import and export modules
